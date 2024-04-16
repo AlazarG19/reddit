@@ -15,6 +15,8 @@ if __name__ == "__main__":
         )
         logger.handlers[0].setFormatter(formatter)
 
+
+
     if len(sys.argv) == 1:
         logger.error("No arguments provided. Use -h or --help for help.")
         if "-v" not in sys.argv or "--verbose" not in sys.argv:
