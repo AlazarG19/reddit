@@ -46,7 +46,6 @@ if __name__ == "__main__":
     bot = RedditBot(
         verbose=args["verbose"]
     )
-
     for acc in accounts:
         if acc not in ["\n", "\r\n"]:
             username, password = acc.split("|")
